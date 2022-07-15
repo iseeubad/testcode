@@ -1,0 +1,61 @@
+body{
+    background-color: gainsboro;
+}
+* {
+    box-sizing: border-box;
+  }
+#nav-bar{
+    background: lightblue;
+    height:75px;
+    position: sticky;
+
+}
+.navbar-brand a:link{
+    text-decoration: none;
+}
+.navbar-brand a:hover{
+    background-color: #B45EFF;
+}
+a > p{
+    font-size: 2em;
+    color: black;
+    text-align: left;
+}
+#nav-list a{
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+h1{
+    margin-top: 110px;
+}
+.row{
+    width: 100%;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+.cont{
+    position: relative;
+    left: 12px;
+     margin-top: 50px;
+    background-color: aqua;
+    font-size: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont p{
+    padding: 5px 5px 5px 5px;
+}
+@media (max-width:767px) {
+    .cont{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 1em;
+    }
+    
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #B45EFF;
+}
